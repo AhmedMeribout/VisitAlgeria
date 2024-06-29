@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import RoutesContainer from './containers/RoutesContainers'
 
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world! Visit Algeria !
-    </h1>
+    <RoutesContainer />
     </>
   )
 }
